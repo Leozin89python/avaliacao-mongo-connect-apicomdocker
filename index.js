@@ -1,4 +1,4 @@
-const port            = 8000
+const port            = 8003
 const mongodb         = 'mongodb://localhost:27017/apicomdocker'
 let UsuarioModelo     = require('./usuario')
 let userRouter        = require('./routes/userRouter')
