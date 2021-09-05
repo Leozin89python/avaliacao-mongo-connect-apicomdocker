@@ -2,7 +2,7 @@ const express         = require('express')
 let router            = express.Router()
 let UsuarioModelo     = require('../usuario')
 
-router.get('/', function(req, res){
+router.get('/', function(req, res, next){
     UsuarioModelo.find({
         nome:'mendesDev'
         },
