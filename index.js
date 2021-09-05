@@ -1,4 +1,4 @@
-const port            = 443
+const port            = 8000
 const mongodb         = 'mongodb://localhost:27017/apicomdocker'
 let UsuarioModelo     = require('./usuario')
 const log       = require('morgan')
