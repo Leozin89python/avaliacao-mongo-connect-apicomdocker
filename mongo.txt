@@ -1,0 +1,5 @@
+mongod --storageEngine=mmapv1 --dbpath C:\data\db
+
+no banco mongo:
+
+    use apicomdocker
