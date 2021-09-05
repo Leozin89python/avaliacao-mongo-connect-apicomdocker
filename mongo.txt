@@ -1,5 +1,8 @@
-mongod --storageEngine=mmapv1 --dbpath C:\data\db
+/* em um terminal cmd */
+comando: mongod --storageEngine=mmapv1 --dbpath C:\data\db
 
-no banco mongo:
+/* em outro terminal cmd */
+comando: mongo
 
-    use apicomdocker
+/* no banco mongo */
+comando:use apicomdocker
